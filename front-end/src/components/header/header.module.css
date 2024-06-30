@@ -1,0 +1,159 @@
+#navbar_container{
+    background-color: white;
+}
+
+
+.main_container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+#main_logo_container{
+    padding: 30px 0px 20px 0px;
+}
+
+#logo_container{
+    height: 42px;
+    background-image: url("../../images/Logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#main_input_container{
+    padding: 30px 0px 0px 0px;
+}
+
+#input_container{
+    width: 80%;
+}
+
+#input_container input{
+    padding: 10px 5px 10px 35px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 2px rgb(214, 214, 214);
+    position: relative;
+    right: 28px;
+}
+
+#input_container button{
+    background-color: rgba(0, 0, 0,0);
+    position: relative;
+    top: 1px;
+    z-index: 2;
+}
+
+#input_container button i{
+    font-size: 18px;
+}
+
+
+#search_submit_button{
+    background-color: white;
+    border: none;
+}
+
+#main_upload_container{
+    padding: 25px 0px 0px 0px;
+}
+
+#main_upload_container button{
+    background-color: #7288FA;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 5px #abb8fa;
+}
+
+
+#main_upload_container button i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#main_profile_container{
+    padding: 15px 0px 0px 0px;
+}
+
+#profile_container{
+    display: flex;
+    flex-direction: row;
+}
+
+#profile_image{
+    padding: 10px 0px 10px 10px;
+}
+
+#profile_image img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+#username{
+    padding: 22px 20px 20px 0px;
+    font-size: 20px;
+    color: #333F4E;
+    margin-left: 10px;
+}
+
+#main_modal_container{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 250px;
+    border-radius: 35px;
+    padding: 30px ;
+}
+
+#main_modal_container > div{
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#up_btn{
+    background-color: #7288FA;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 5px #abb8fa;
+}
+
+#choose_btn{
+    position: relative;
+     bottom: 30px;
+}
+
+#main_wait_container{
+    display: block;
+    position: relative;
+    left: 700px;
+    top: 300px;
+}
+
+@media only screen and (max-width: 990px) {
+    #navbar_container{
+        background-color: rgb(249, 249, 249);
+    }
+}
+
+
+@media only screen and (max-width: 1090px) and (min-width: 990px) {
+    #main_upload_container button{
+        padding: 12px 32px;
+    }
+}
